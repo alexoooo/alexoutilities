@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!--====================================================================-->
+    <modelVersion>4.0.0</modelVersion>
+
+
+    <!--====================================================================-->
+    <parent>
+        <artifactId>util-parent</artifactId>
+        <groupId>ao.util</groupId>
+        <version>2.4.4-SNAPSHOT</version>
+    </parent>
+
+
+    <!--====================================================================-->
+    <artifactId>util-all</artifactId>
+    <!--<packaging>pom</packaging>-->
+
+
+    <!--====================================================================-->
+    <name>Utilities : All</name>
+
+
+    <!--====================================================================-->
+    <dependencies>
+        <dependency>
+            <groupId>ao.util</groupId>
+            <artifactId>util-lang</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>ao.util</groupId>
+            <artifactId>util-compress</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>ao.util</groupId>
+            <artifactId>util-serial</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>ao.util</groupId>
+            <artifactId>util-persist</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>ao.util</groupId>
+            <artifactId>util-serial-persist</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>ao.util</groupId>
+            <artifactId>util-parse</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
