@@ -27,7 +27,7 @@
         <dependency>
             <groupId>com.thoughtworks.xstream</groupId>
             <artifactId>xstream</artifactId>
-            <version>1.4.4</version>
+            <version>1.4.20</version>
             <optional>false</optional>
         </dependency>
 
@@ -51,7 +51,7 @@
         <repository>
             <id>jboss-releases</id>
             <name>JBoss Public Repo</name>
-            <url>http://repository.jboss.org/nexus/content/groups/public-jboss</url>
+            <url>https://repository.jboss.org/nexus/content/groups/public-jboss</url>
         </repository>
         <repository>
             <id>jboss-deprecated-repository</id>
